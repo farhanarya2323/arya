@@ -179,3 +179,23 @@ footer {
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+/* HEADER LOGO FIX */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;      /* Logo small and perfect */
+    height: auto;
+    border-radius: 8px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
