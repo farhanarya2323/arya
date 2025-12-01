@@ -47,3 +47,148 @@ nav a{color:#cfe7ff;margin-left:12px;text-decoration:none;font-weight:600}
   .grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
   .admin-wrap{grid-template-columns:1fr}
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #02101E;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #031A2B;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(#031A2B, #02101E);
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #FF9800;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.about-box div {
+    background: #041C2F;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.item {
+    background: #041C2F;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #031A2B;
+    margin-top: 40px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #031A2B;
+    margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.c-box {
+    padding: 12px 20px;
+    background: #041C2F;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.c-box:hover {
+    transform: scale(1.05);
+}
+
+.whatsapp {
+    background: #25D366;
+    color: black;
+}
+
+.call {
+    background: #FF9800;
+    color: black;
+}
+
+
