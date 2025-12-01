@@ -27,18 +27,6 @@ body {
     z-index: 999;
 }
 
-/* LOGO + BRAND */
-.logo-section {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.logo-section img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    object-fit: cover;
 }
 
 .brand-name {
@@ -243,4 +231,39 @@ footer {
     color: white;
     text-align: center;
     margin-top: 30px;
+}
+
+
+/* ---- FINAL RESPONSIVE LOGO FIX ---- */
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-section img {
+    width: 45px;         /* PC par perfect */
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+
+    .logo-section img {
+        width: 38px;     /* Mobile me chhota ho jayega */
+        height: 38px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+    }
 }
