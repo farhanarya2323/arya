@@ -1,46 +1,96 @@
-<!doctype html>
-<html lang="hi">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Arya Restaurant — Menu</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Arya Restaurant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap">
-      <div class="brand">
-        <img src="" alt="logo" id="siteLogo" class="logo" style="display:none">
-        <h1>Arya Restaurant</h1>
-      </div>
-      <nav>
-        <a href="index.html">Menu</a>
-        <a href="cart.html">Cart <span id="cartCount">0</span></a>
+
+<header>
+    <div class="logo">Arya Restaurant</div>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart 0</a>
         <a href="admin.html">Admin</a>
-      </nav>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>Delicious • Fast • Fresh</h1>
+    <p>Apna order select karo aur Cash on Delivery choose karo.</p>
+    <a href="menu.html" class="btn">Order Now</a>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about">
+    <h2>Why Choose Arya Restaurant?</h2>
+    <div class="about-box">
+        <div>
+            <h3>🍲 Fresh Food</h3>
+            <p>Daily fresh ingredients ka use, hygienic cooking & premium taste.</p>
+        </div>
+
+        <div>
+            <h3>⚡ Fast Delivery</h3>
+            <p>Aapka order 25–35 minutes me ghar par.</p>
+        </div>
+
+        <div>
+            <h3>💸 Cash on Delivery</h3>
+            <p>Paise delivery ke time dena hai – bilkul tension free!</p>
+        </div>
     </div>
-  </header>
+</section>
 
-  <main class="wrap">
-    <section class="hero">
-      <h2>Delicious • Fast • Fresh</h2>
-      <p>Apna order select karo aur Cash on Delivery choose karo.</p>
-    </section>
+<!-- FEATURED ITEMS -->
+<section class="featured">
+    <h2>Featured Items</h2>
+    <div class="items">
 
-    <section class="menu-section">
-      <h3>Menu</h3>
-      <div id="items" class="grid"></div>
-      <div id="noItems" class="muted" style="display:none">Koi item abhi add nahi hua. Admin se add karo.</div>
-    </section>
-  </main>
+        <div class="item">
+            <img src="https://i.ibb.co/ZJt9gQm/biryani.jpg" alt="Biryani">
+            <h3>Chicken Biryani</h3>
+            <p>₹120</p>
+        </div>
 
-  <footer class="footer">
-    <div class="wrap">© <span id="year"></span> Arya Restaurant</div>
-  </footer>
+        <div class="item">
+            <img src="https://i.ibb.co/mG1hrzB/paneer.jpg" alt="Paneer">
+            <h3>Paneer Butter Masala</h3>
+            <p>₹150</p>
+        </div>
 
-  <script src="js/main.js"></script>
-  <script>window.page = 'home';</script>
+        <div class="item">
+            <img src="https://i.ibb.co/JCKR3Gd/burger.jpg" alt="Burger">
+            <h3>Veg Burger</h3>
+            <p>₹60</p>
+        </div>
+
+    </div>
+</section>
+
+  <!-- CONTACT SECTION -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Kisi bhi order ya support ke liye hume contact karein:</p>
+
+    <div class="contact-box">
+
+        <a class="c-box whatsapp" href="https://wa.me/917484052099" target="_blank">
+            💬 WhatsApp Message
+        </a>
+
+        <a class="c-box call" href="tel:+917484052099">
+            📞 Call Now
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    © Arya Restaurant
+</footer>
+
 </body>
 </html>
-
-
