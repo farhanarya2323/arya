@@ -8,20 +8,19 @@
 <body>
 
 <header>
-    <nav class="navbar">
-        <div class="logo-section">
-            <img src="https://github.com/farhanarya2323/arya/blob/main/logo.jpg?raw=true">
-            <span class="brand-name">Arya Restaurant</span>
-        </div>
+  <nav class="arya-navbar">
+    <div class="nav-left">
+      <img src="logo.png" alt="Logo" class="nav-logo">
+      <h2 class="nav-title">Arya Restaurant</h2>
+    </div>
 
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-toggle" onclick="openMenu()">☰</div>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#cart">Cart</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <ul class="nav-right" id="navMenu">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#cart">Cart</a></li>
+    </ul>
+  </nav>
 </header>
 
 <section class="hero">
@@ -95,6 +94,7 @@
 
 </body>
 </html>
+
 
 
 
